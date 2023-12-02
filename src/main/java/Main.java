@@ -30,7 +30,7 @@ public class Main {
             BigInteger c = decrypt(chit.get(0), chit.get(1));
 
             sb.append("\n");
-            sb.append(" new fuckn char apparently:");
+            sb.append("new char apparently:");
             sb.append((char) c.intValue());
         }
 
